@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A02191271D487700DAE74E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A02190271D487700DAE74E /* AppDelegate.swift */; };
+		18A02193271D487700DAE74E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A02192271D487700DAE74E /* ViewController.swift */; };
+		18A02196271D487700DAE74E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A02194271D487700DAE74E /* Main.storyboard */; };
+		18A02198271D487900DAE74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A02197271D487900DAE74E /* Assets.xcassets */; };
+		18A0219B271D487900DAE74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A02199271D487900DAE74E /* LaunchScreen.storyboard */; };
+		18A021A6271D487A00DAE74E /* NimazAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021A5271D487A00DAE74E /* NimazAppTests.swift */; };
+		18A021B1271D487A00DAE74E /* NimazAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021B0271D487A00DAE74E /* NimazAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A021A2271D487A00DAE74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A02185271D487700DAE74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A0218C271D487700DAE74E;
+			remoteInfo = NimazApp;
+		};
+		18A021AD271D487A00DAE74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A02185271D487700DAE74E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A0218C271D487700DAE74E;
+			remoteInfo = NimazApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A0218D271D487700DAE74E /* NimazApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimazApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A02190271D487700DAE74E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A02192271D487700DAE74E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A02195271D487700DAE74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A02197271D487900DAE74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A0219A271D487900DAE74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A0219C271D487A00DAE74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A021A1271D487A00DAE74E /* NimazAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimazAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A021A5271D487A00DAE74E /* NimazAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimazAppTests.swift; sourceTree = "<group>"; };
+		18A021A7271D487A00DAE74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A021AC271D487A00DAE74E /* NimazAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimazAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A021B0271D487A00DAE74E /* NimazAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimazAppUITests.swift; sourceTree = "<group>"; };
+		18A021B2271D487A00DAE74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A0218A271D487700DAE74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A0219E271D487A00DAE74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A021A9271D487A00DAE74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A02184271D487700DAE74E = {
+			isa = PBXGroup;
+			children = (
+				18A0218F271D487700DAE74E /* NimazApp */,
+				18A021A4271D487A00DAE74E /* NimazAppTests */,
+				18A021AF271D487A00DAE74E /* NimazAppUITests */,
+				18A0218E271D487700DAE74E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A0218E271D487700DAE74E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A0218D271D487700DAE74E /* NimazApp.app */,
+				18A021A1271D487A00DAE74E /* NimazAppTests.xctest */,
+				18A021AC271D487A00DAE74E /* NimazAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A0218F271D487700DAE74E /* NimazApp */ = {
+			isa = PBXGroup;
+			children = (
+				18A02190271D487700DAE74E /* AppDelegate.swift */,
+				18A02192271D487700DAE74E /* ViewController.swift */,
+				18A02194271D487700DAE74E /* Main.storyboard */,
+				18A02197271D487900DAE74E /* Assets.xcassets */,
+				18A02199271D487900DAE74E /* LaunchScreen.storyboard */,
+				18A0219C271D487A00DAE74E /* Info.plist */,
+			);
+			path = NimazApp;
+			sourceTree = "<group>";
+		};
+		18A021A4271D487A00DAE74E /* NimazAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A021A5271D487A00DAE74E /* NimazAppTests.swift */,
+				18A021A7271D487A00DAE74E /* Info.plist */,
+			);
+			path = NimazAppTests;
+			sourceTree = "<group>";
+		};
+		18A021AF271D487A00DAE74E /* NimazAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A021B0271D487A00DAE74E /* NimazAppUITests.swift */,
+				18A021B2271D487A00DAE74E /* Info.plist */,
+			);
+			path = NimazAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A0218C271D487700DAE74E /* NimazApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A021B5271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazApp" */;
+			buildPhases = (
+				18A02189271D487700DAE74E /* Sources */,
+				18A0218A271D487700DAE74E /* Frameworks */,
+				18A0218B271D487700DAE74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimazApp;
+			productName = NimazApp;
+			productReference = 18A0218D271D487700DAE74E /* NimazApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A021A0271D487A00DAE74E /* NimazAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A021B8271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazAppTests" */;
+			buildPhases = (
+				18A0219D271D487A00DAE74E /* Sources */,
+				18A0219E271D487A00DAE74E /* Frameworks */,
+				18A0219F271D487A00DAE74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A021A3271D487A00DAE74E /* PBXTargetDependency */,
+			);
+			name = NimazAppTests;
+			productName = NimazAppTests;
+			productReference = 18A021A1271D487A00DAE74E /* NimazAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A021AB271D487A00DAE74E /* NimazAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A021BB271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazAppUITests" */;
+			buildPhases = (
+				18A021A8271D487A00DAE74E /* Sources */,
+				18A021A9271D487A00DAE74E /* Frameworks */,
+				18A021AA271D487A00DAE74E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A021AE271D487A00DAE74E /* PBXTargetDependency */,
+			);
+			name = NimazAppUITests;
+			productName = NimazAppUITests;
+			productReference = 18A021AC271D487A00DAE74E /* NimazAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A02185271D487700DAE74E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18A0218C271D487700DAE74E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18A021A0271D487A00DAE74E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18A0218C271D487700DAE74E;
+					};
+					18A021AB271D487A00DAE74E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18A0218C271D487700DAE74E;
+					};
+				};
+			};
+			buildConfigurationList = 18A02188271D487700DAE74E /* Build configuration list for PBXProject "NimazApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A02184271D487700DAE74E;
+			productRefGroup = 18A0218E271D487700DAE74E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A0218C271D487700DAE74E /* NimazApp */,
+				18A021A0271D487A00DAE74E /* NimazAppTests */,
+				18A021AB271D487A00DAE74E /* NimazAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A0218B271D487700DAE74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0219B271D487900DAE74E /* LaunchScreen.storyboard in Resources */,
+				18A02198271D487900DAE74E /* Assets.xcassets in Resources */,
+				18A02196271D487700DAE74E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A0219F271D487A00DAE74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A021AA271D487A00DAE74E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A02189271D487700DAE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A02193271D487700DAE74E /* ViewController.swift in Sources */,
+				18A02191271D487700DAE74E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A0219D271D487A00DAE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A021A6271D487A00DAE74E /* NimazAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A021A8271D487A00DAE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A021B1271D487A00DAE74E /* NimazAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A021A3271D487A00DAE74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A0218C271D487700DAE74E /* NimazApp */;
+			targetProxy = 18A021A2271D487A00DAE74E /* PBXContainerItemProxy */;
+		};
+		18A021AE271D487A00DAE74E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A0218C271D487700DAE74E /* NimazApp */;
+			targetProxy = 18A021AD271D487A00DAE74E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A02194271D487700DAE74E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A02195271D487700DAE74E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A02199271D487900DAE74E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A0219A271D487900DAE74E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A021B3271D487A00DAE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A021B4271D487A00DAE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A021B6271D487A00DAE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimazApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raja.NimazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A021B7271D487A00DAE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimazApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raja.NimazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18A021B9271D487A00DAE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimazAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raja.NimazAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimazApp.app/NimazApp";
+			};
+			name = Debug;
+		};
+		18A021BA271D487A00DAE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimazAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raja.NimazAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimazApp.app/NimazApp";
+			};
+			name = Release;
+		};
+		18A021BC271D487A00DAE74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimazAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raja.NimazAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NimazApp;
+			};
+			name = Debug;
+		};
+		18A021BD271D487A00DAE74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimazAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raja.NimazAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NimazApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A02188271D487700DAE74E /* Build configuration list for PBXProject "NimazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A021B3271D487A00DAE74E /* Debug */,
+				18A021B4271D487A00DAE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A021B5271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A021B6271D487A00DAE74E /* Debug */,
+				18A021B7271D487A00DAE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A021B8271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A021B9271D487A00DAE74E /* Debug */,
+				18A021BA271D487A00DAE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A021BB271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A021BC271D487A00DAE74E /* Debug */,
+				18A021BD271D487A00DAE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A02185271D487700DAE74E /* Project object */;
+}

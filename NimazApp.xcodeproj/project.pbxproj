@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		18A0219B271D487900DAE74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A02199271D487900DAE74E /* LaunchScreen.storyboard */; };
 		18A021A6271D487A00DAE74E /* NimazAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021A5271D487A00DAE74E /* NimazAppTests.swift */; };
 		18A021B1271D487A00DAE74E /* NimazAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021B0271D487A00DAE74E /* NimazAppUITests.swift */; };
+		18A021BF271D55C600DAE74E /* SalahCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021BE271D55C600DAE74E /* SalahCollectionViewController.swift */; };
+		18A021C1271D55DD00DAE74E /* SalahCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021C0271D55DD00DAE74E /* SalahCollectionViewCell.swift */; };
+		18A021C5271D75D700DAE74E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A021C4271D75D700DAE74E /* Class.swift */; };
+		FB33EEBAEFE006CA17EA9BB1 /* Pods_NimazApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97657C8E9F94E787EE48931E /* Pods_NimazApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1897E3DE27229AE6002CF796 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../../../../Downloads/Roboto/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		18A0218D271D487700DAE74E /* NimazApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimazApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A02190271D487700DAE74E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A02192271D487700DAE74E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,12 @@
 		18A021AC271D487A00DAE74E /* NimazAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimazAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A021B0271D487A00DAE74E /* NimazAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimazAppUITests.swift; sourceTree = "<group>"; };
 		18A021B2271D487A00DAE74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A021BE271D55C600DAE74E /* SalahCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahCollectionViewController.swift; sourceTree = "<group>"; };
+		18A021C0271D55DD00DAE74E /* SalahCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A021C4271D75D700DAE74E /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		2437FFF623FD9D9B9795553B /* Pods-NimazApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimazApp.debug.xcconfig"; path = "Target Support Files/Pods-NimazApp/Pods-NimazApp.debug.xcconfig"; sourceTree = "<group>"; };
+		97657C8E9F94E787EE48931E /* Pods_NimazApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimazApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF1EEC4CEB8CE6E81DF39C3 /* Pods-NimazApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimazApp.release.xcconfig"; path = "Target Support Files/Pods-NimazApp/Pods-NimazApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB33EEBAEFE006CA17EA9BB1 /* Pods_NimazApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182BA0182721706A00B79297 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1897E3DE27229AE6002CF796 /* Roboto-MediumItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		18A02184271D487700DAE74E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				18A021A4271D487A00DAE74E /* NimazAppTests */,
 				18A021AF271D487A00DAE74E /* NimazAppUITests */,
 				18A0218E271D487700DAE74E /* Products */,
+				6D5E16D83592499B4D8D55B2 /* Pods */,
+				FAAC057C755859EA25915527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +119,16 @@
 		18A0218F271D487700DAE74E /* NimazApp */ = {
 			isa = PBXGroup;
 			children = (
+				182BA0182721706A00B79297 /* Font */,
 				18A02190271D487700DAE74E /* AppDelegate.swift */,
 				18A02192271D487700DAE74E /* ViewController.swift */,
 				18A02194271D487700DAE74E /* Main.storyboard */,
 				18A02197271D487900DAE74E /* Assets.xcassets */,
 				18A02199271D487900DAE74E /* LaunchScreen.storyboard */,
 				18A0219C271D487A00DAE74E /* Info.plist */,
+				18A021BE271D55C600DAE74E /* SalahCollectionViewController.swift */,
+				18A021C0271D55DD00DAE74E /* SalahCollectionViewCell.swift */,
+				18A021C4271D75D700DAE74E /* Class.swift */,
 			);
 			path = NimazApp;
 			sourceTree = "<group>";
@@ -125,6 +151,23 @@
 			path = NimazAppUITests;
 			sourceTree = "<group>";
 		};
+		6D5E16D83592499B4D8D55B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2437FFF623FD9D9B9795553B /* Pods-NimazApp.debug.xcconfig */,
+				DDF1EEC4CEB8CE6E81DF39C3 /* Pods-NimazApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAAC057C755859EA25915527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97657C8E9F94E787EE48931E /* Pods_NimazApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A021B5271D487A00DAE74E /* Build configuration list for PBXNativeTarget "NimazApp" */;
 			buildPhases = (
+				720E758E4552E88F01AA66D2 /* [CP] Check Pods Manifest.lock */,
 				18A02189271D487700DAE74E /* Sources */,
 				18A0218A271D487700DAE74E /* Frameworks */,
 				18A0218B271D487700DAE74E /* Resources */,
+				D740E0CE2DACE4F42312B250 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +296,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		720E758E4552E88F01AA66D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimazApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D740E0CE2DACE4F42312B250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NimazApp/Pods-NimazApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NimazApp/Pods-NimazApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NimazApp/Pods-NimazApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A02189271D487700DAE74E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A021C1271D55DD00DAE74E /* SalahCollectionViewCell.swift in Sources */,
+				18A021BF271D55C600DAE74E /* SalahCollectionViewController.swift in Sources */,
 				18A02193271D487700DAE74E /* ViewController.swift in Sources */,
+				18A021C5271D75D700DAE74E /* Class.swift in Sources */,
 				18A02191271D487700DAE74E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +520,7 @@
 		};
 		18A021B6271D487A00DAE74E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2437FFF623FD9D9B9795553B /* Pods-NimazApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +538,7 @@
 		};
 		18A021B7271D487A00DAE74E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF1EEC4CEB8CE6E81DF39C3 /* Pods-NimazApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
